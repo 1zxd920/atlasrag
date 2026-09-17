@@ -1,0 +1,7 @@
+{"question":"How long are query audit logs retained?","expected_source":"security-handbook.md","expected_keywords":["180 days","trace"]}
+{"question":"How quickly should a security incident be escalated?","expected_source":"security-handbook.md","expected_keywords":["15 minutes","on-call"]}
+{"question":"What data must never be indexed?","expected_source":"security-handbook.md","expected_keywords":["passwords","private keys"]}
+{"question":"When can an order be automatically refunded?","expected_source":"refund-runbook.md","expected_keywords":["seven calendar days","no shipment"]}
+{"question":"What should happen after a failed refund retry?","expected_source":"refund-runbook.md","expected_keywords":["human","error response"]}
+{"question":"When can support say a refund is complete?","expected_source":"refund-runbook.md","expected_keywords":["payment provider","confirms"]}
+
