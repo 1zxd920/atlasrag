@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlasrag"
+version = "0.1.0"
+description = "A dependency-light agentic RAG reference implementation with hybrid retrieval, citations, evaluation, and tracing."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Xudong Zhao"}]
+keywords = ["rag", "agent", "retrieval", "evaluation", "observability"]
+
+[project.scripts]
+atlasrag = "atlasrag.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
